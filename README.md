@@ -11,3 +11,5 @@ Task-01:
 7) Then stored the encoded_image
 8) While decode it i took the red value and extracted the least significant bit(or last digit of 8 bit binary) and grouped every 8 bits and converted them back to character
 9) Finaly displaced the encoded message
+
+I chose Least Significant Bit method as it is simple and the output image has no visual changes. Other method such as DCT(Discrete Cosine Transform) which hides data in frequnce domain by modifying DCT coefficients and is more Complex and slower, and DWT (Discrete Wavelet Transform) which hides data in the wavelet transformed image(across different resolution levels) and is harder to implement. It’s perfect for understanding the core concept of hiding information in digital images before exploring more advanced (and secure) methods like DCT or DWT. I haven't gone in depth about these two methods yet.
